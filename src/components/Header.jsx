@@ -19,7 +19,7 @@ function Header() {
               <Link className="nav-link text-light" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/conatct">Conatct</Link>
+              <Link className="nav-link text-light" to="/contact">Conatct</Link>
             </li>
           </ul>
         </div>
