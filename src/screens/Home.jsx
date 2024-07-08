@@ -5,7 +5,7 @@ function Home() {
     <>
       <section>
         <div className="container">
-          <center className="h3 pt-3">Home Section</center>
+          <center className="h3 pt-3">Home</center>
           <div className="row">
             <div className="col-md-12">
               <div className="row">
