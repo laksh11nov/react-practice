@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header(props) {
   return (
     <header>
-    <nav className="navbar navbar-expand-lg bg-primary bg-body-tertiary">
+    <nav className="navbar bg-primary navbar-expand-lg bg-body-tertiary">
       <div className="container">
-        <a className="navbar-brand text-light" href="#">ReactJS</a>
+        <a className="navbar-brand text-light" href="#">{props.pageName}</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i className="fa-solid fa-bars text-light" style={{fontSize: '25px'}}></i>
         </button>
@@ -16,10 +16,10 @@ function Header() {
               <Link className="nav-link active text-light" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/about">About</Link>
+              <Link className="nav-link text-light" to="/contact">Contact</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/contact">Conatct</Link>
+              <Link className="nav-link text-light" to="/counter">Counter</Link>
             </li>
           </ul>
         </div>
